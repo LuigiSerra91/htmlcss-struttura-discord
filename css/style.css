@@ -29,7 +29,11 @@
 .debug footer{
     height: 400px;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
+
 
 /* end_debug */
 
@@ -171,3 +175,31 @@
     
     
 }
+
+/* end_utility_main */
+
+/* utility_footer */
+
+.big_square_fot{
+    height: 250px;
+    width: 300px;
+    background-color: pink;
+    margin-top: 75px;
+}
+
+
+.little_square_fot{
+    height: 250px;
+    width: 150px;
+    background-color: aqua;
+    margin-top: 75px;
+}
+
+.button_foot{
+    background-color: aquamarine;
+    width: 450px;
+    flex-direction: row;
+    height: 40px;
+    display: flex;
+}
+
