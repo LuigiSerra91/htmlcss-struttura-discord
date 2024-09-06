@@ -27,12 +27,11 @@
 }
 
 .debug footer{
-    height: 400px;
+    height: 600px;
     background-color: black;
     display: flex;
     justify-content: center;
-    flex-direction:row;
-    align-items:stretch
+    flex-direction:column;
     
 }
 
@@ -195,15 +194,26 @@
     width: 150px;
     background-color: aqua;
     margin-top: 75px;
+    align-content: center;
 }
 
-.button_foot{
+.section_button{
     background-color: aquamarine;
-    width: 450px;
-    
+    width: 900px;
     height: 40px;
+    display: flex;
+    align-content: center;
+    
+    
     
 }
 
+
+.card_foot{
+    display: flex;
+    justify-content: center;
+
+
+}
 
 
