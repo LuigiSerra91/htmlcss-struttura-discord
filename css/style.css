@@ -202,11 +202,9 @@
     width: 900px;
     height: 40px;
     display: flex;
-    align-content: center;
+    justify-content:space-between;
     
-    
-    
-}
+      }
 
 
 .card_foot{
@@ -217,3 +215,9 @@
 }
 
 
+.box_botton{
+    display: flex;
+    justify-content: center;
+}
+
+/* end_utility_footer */
