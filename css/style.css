@@ -138,14 +138,14 @@
     padding-top: 20px;
 }
 
-.square_2{
+.debug .square_2{
     height: 250px;
     width: 450px;
     background-color: blue;
     padding-bottom: 20px;
     padding-top: 20px;
 }
-.square_3{
+.debug .square_3{
     height: 250px;
     width: 350px;
     background-color: pink;
@@ -153,7 +153,7 @@
     
 }
 
-.grey_square{
+.debug .grey_square{
     height: 250px;
     width: 450px;
     background-color: pink;
@@ -161,7 +161,7 @@
 
 }
 
-.grey_square2{
+.debug .grey_square2{
     height: 250px;
     width: 350px;
     background-color: blue;
@@ -169,7 +169,8 @@
 
     
 }
-.square_5{
+
+.debug .square_5{
     height: 450px;
     width: 450px;
     background-color: green;
@@ -181,7 +182,7 @@
 
 /* utility_footer */
 
-.big_square_fot{
+.debug .big_square_fot{
     height: 250px;
     width: 300px;
     background-color: pink;
@@ -189,7 +190,7 @@
 }
 
 
-.little_square_fot{
+.debug .little_square_fot{
     height: 250px;
     width: 150px;
     background-color: aqua;
@@ -197,7 +198,7 @@
     align-content: center;
 }
 
-.section_button{
+.debug .section_button{
     background-color: aquamarine;
     width: 900px;
     height: 40px;
