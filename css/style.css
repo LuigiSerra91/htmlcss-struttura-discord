@@ -2,40 +2,64 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px dashed ;
 }
 
-.app_header{
+/* debug */
+.debug *{
+    border: 1px dashed;
+}
+
+.debug header{
+    height: 70px;
+    background-color: aquamarine;
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
+}
+
+.debug main{
+    background-color: blueviolet;
+    height: 700px;
+}
+
+.debug footer{
+    height: 250px;
+    background-color: black;
+}
+
+/* end_debug */
+
+/* utility_header */
+
+.header_1{
+    height: 20px;
+    width: 100px;
+    background-color: orange;
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-block: auto;
 }
 
-.app_main{
-    display: flex;
-    justify-content: center;
-    background-color: white;
-}
 
-.logo{
-    width: 15%;
-    background-color: orange;
-    border: 1px solid;
+.header_2{
     height: 20px;
+    width: 300px;
+    background-color: orange;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-block: auto;
     
 }
 
-.link{
-    width: 15%;
+.header_3{
+    height: 20px;
+    width: 100px;
     background-color: orange;
-    border: 1px solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-block: auto;
+    
     
 }
 
-.login{
-    width: 15%;
-    background-color: orange;
-    border: 1px solid;
-    
-}
+/* end_utility_header */
