@@ -20,7 +20,7 @@
 
 .debug main{
     display: flex;
-    height: 2000px;
+    height: 3000px;
     align-items: center;
     flex-direction: column;
      
@@ -130,47 +130,47 @@
 }
 
 .square_1{
-    height: 150px;
-    width: 450px;
+    height: 250px;
+    width: 500px;
     background-color: purple;
     padding-bottom: 20px;
     padding-top: 20px;
 }
 
 .square_2{
-    height: 150px;
-    width: 350px;
+    height: 250px;
+    width: 450px;
     background-color: blue;
     padding-bottom: 20px;
     padding-top: 20px;
 }
 .square_3{
-    height: 150px;
-    width: 200px;
+    height: 250px;
+    width: 350px;
     background-color: pink;
     
     
 }
 
 .grey_square{
-    height: 150px;
-    width: 350px;
+    height: 250px;
+    width: 450px;
     background-color: pink;
     
 
 }
 
 .grey_square2{
-    height: 150px;
-    width: 200px;
+    height: 250px;
+    width: 350px;
     background-color: blue;
     
 
     
 }
 .square_5{
-    height: 250px;
-    width: 250px;
+    height: 450px;
+    width: 450px;
     background-color: green;
     
     
@@ -200,6 +200,8 @@
     width: 450px;
     flex-direction: row;
     height: 40px;
-    display: flex;
+    
 }
+
+
 
