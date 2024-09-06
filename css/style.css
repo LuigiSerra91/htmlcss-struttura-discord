@@ -3,3 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.app_header{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.app_main{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.logo{
+    width: 15%;
+    background-color: orange;
+    border: 1px solid;
+    height: 20px;
+    
+}
+
+.link{
+    width: 15%;
+    background-color: orange;
+    border: 1px solid;
+    
+}
+
+.login{
+    width: 15%;
+    background-color: orange;
+    border: 1px solid;
+    
+}
