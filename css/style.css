@@ -5,6 +5,7 @@
     border: 1px dashed ;
 }
 
+
 /* debug */
 .debug *{
     border: 1px dashed;
@@ -18,12 +19,16 @@
 }
 
 .debug main{
-    background-color: blueviolet;
-    height: 700px;
+    display: flex;
+    height: 2000px;
+    
+    align-content: center;
+    flex-direction: column;
+     
 }
 
 .debug footer{
-    height: 250px;
+    height: 400px;
     background-color: black;
 }
 
@@ -63,3 +68,66 @@
 }
 
 /* end_utility_header */
+
+/* utility_main */
+
+
+.sect_main1{
+    height: 20%;
+    background-color: blue;
+    width: 100%;
+}
+
+.section_main2, .section_main4{
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.sect_main3{
+    height: 20%;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.sect_main5{
+    width: 100%;
+    background-color: lightgrey;
+    height: 40%;
+    
+}
+
+.square_1{
+    height: 150px;
+    width: 450px;
+    background-color: purple;
+}
+
+.square_2{
+    height: 150px;
+    width: 350px;
+    background-color: blue;
+}
+.square_3{
+    height: 150px;
+    width: 200px;
+    background-color: pink;
+}
+
+.grey_square{
+    height: 150px;
+    width: 350px;
+    background-color: pink;
+}
+
+.grey_square2{
+    height: 150px;
+    width: 200px;
+    background-color: blue
+}
+.square_5{
+    height: 250px;
+    width: 250px;
+    background-color: green;
+}
